@@ -7,7 +7,7 @@ import styles from './Post.module.css';
 import { InvalidEvent, ChangeEvent, FormEvent, useState } from 'react';
 
 interface Content {
-  type: 'paragraph' | 'link';
+  type: string;
   content: string;
 }
 
@@ -18,7 +18,7 @@ interface postProps{
     avatarUrl: string;
   }; 
   publishedAt: Date;
-  content: Content[ ];
+  content: Content[];
 }
 
 //estado = variaveis que eu quero que o componente monitore
