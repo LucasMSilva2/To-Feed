@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# To-feed - README
+   To-feed é um projeto simples feito em React e TypeScript, com o objetivo de oferecer uma tela onde os usuários possam criar posts sobre vários assuntos, comentar nas publicações e dar likes (aplauzos) nos comentários.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
+   O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Currently, two official plugins are available:
+   - ![React](https://img.icons8.com/plasticine/50/000000/react.png) React: Uma biblioteca JavaScript de código aberto para construir interfaces de usuário.
+   - ![TypeScript](https://img.icons8.com/color/50/000000/typescript.png) TypeScript: Uma linguagem de programação que adiciona tipagem estática ao JavaScript.
+   - ![phosphor-react](https://img.icons8.com/pencil.png) phosphor-react: Uma biblioteca de ícones de código aberto baseada em React.
+   - !Vite: Uma ferramenta de construção e servidor de desenvolvimento extremamente rápida para projetos front-end.
+   - !date-fns: Uma biblioteca JavaScript para manipulação de datas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como Instalar
+   Para instalar e executar o projeto em sua máquina, siga os passos abaixo:
 
-## Expanding the ESLint configuration
+### Pré-requisitos
+   Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em sua máquina. Se você ainda não os tem, você pode baixá-los e instalá-los a partir do site oficial do Node.js: [https://nodejs.org](https://nodejs.org)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Clonar o Repositório
+   Abra o terminal ou prompt de comando e navegue até o diretório onde deseja armazenar o projeto. Em seguida, execute o seguinte comando para clonar o repositório:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+      git clone https://github.com/LucasMSilva2/To-Feed.git
+   ```
+## Instalar as Dependências
+   Após concluir a clonagem do repositório, navegue até o diretório do projeto e instale as dependências necessárias executando o seguinte comando:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   ```bash
+      cd to-feed
+      npm install
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Executar a Aplicação
+
+   Com as dependências instaladas, você pode iniciar a aplicação localmente executando o seguinte comando:
+
+   ```bash
+      npm run dev
+   ```
+
+   Isso iniciará o servidor de desenvolvimento e a aplicação estará disponível em seu navegador através do endereço: http://localhost:3001
+
+   Agora você pode interagir com a aplicação To-feed, criar posts, comentar e dar likes nos comentários.
+
+## Comandos Disponíveis
+
+   * npm run dev: Inicia o servidor de desenvolvimento em modo de desenvolvimento.
+   * npm run build: Compila o projeto para produção.
+   * npm run lint: Executa o linter para verificar e corrigir problemas de estilo de código.
+   * npm run preview: Visualiza a build de produção localmente.
