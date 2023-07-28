@@ -1,5 +1,9 @@
-# To-feed - README
+# To-feed
    To-feed é um projeto simples feito em React e TypeScript, com o objetivo de oferecer uma tela onde os usuários possam criar posts sobre vários assuntos, comentar nas publicações e dar likes (aplauzos) nos comentários.
+
+   <div style="text-align: center;">
+      <img src="src\assets\printTela.jpg" alt="Tela do To-feed" />
+   </div>
 
 ## Tecnologias Utilizadas
    O projeto foi desenvolvido utilizando as seguintes tecnologias:
